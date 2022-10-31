@@ -2,7 +2,7 @@ import Btn from "../core/Btn";
 
 const Navbar = () => {
   return (
-    <div className="w-full py-3 flex items-center justify-around bg-neutral-500 text-white">
+    <div className="w-full py-3 flex items-center justify-around bg-neutral-500 text-white sticky top-0 z-10">
       <h1 className="text-2xl">Navbar</h1>
       <div className="flex gap-6">
         <Btn>About me</Btn>
